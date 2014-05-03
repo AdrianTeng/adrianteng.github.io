@@ -1,8 +1,50 @@
 <html>
-  <head>
-    <title>World</title>
-  </head>
-  <body>
-    --Hello World--
-  </body>
+<head>
+	<title>teng.io</title>
+	<script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="vegas/jquery.vegas.js"></script>
+	<link rel="stylesheet" type="text/css" href="vegas/jquery.vegas.css"/>
+	<link href='http://fonts.googleapis.com/css?family=Lora:400' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<meta name="description" content="Adrian Teng personal homepage">
+	<meta name="keywords" content="C,Java,Python,Programmer,Quantitative Developer,Quantitative Analyst,Systematic Trading,Algorithm Trading">
+	<meta name="author" content="Adrian Teng">
+	<meta charset="UTF-8">
+	<script type="text/javascript">
+		$(document).ready(function() { 
+			$(".main").css("display", "none");
+			$(".main").fadeIn(888);
+		});
+	</script>
+</head>
+<body>	
+	
+	<div class="main">
+	<p>
+		<h1>Adrian Teng</h1>
+		<a href="mailto:adrian@teng.io">adrian@teng.io</a><br>
+		Quantitative Developer<br>
+		Passionate mathematician and programmer | C | Java | Python
+		<ul>
+			<li class='fb'><a href='http://www.facebook.com/reading.ant'></a></li>
+			<li class='twitter'><a href='http://twitter.com/reading_ant'></a></li>
+			<li class='linkedin'><a href='http://www.linkedin.com/pub/adrian-teng/27/941/168'></a></li>
+		</ul>
+	</p>
+	</div>
+	<smallprint>Image by <a href="https://www.flickr.com/photos/jacobsurland/">Jacob Surland</a></smallprint>
+	<script type="text/javascript">
+		$( function() {
+			$.vegas('overlay', {
+			  src:'./vegas/overlays/02.png'
+			});
+			$.vegas({
+				src:'bg.jpg',
+				fade:1800
+			});
+			
+		});
+	</script>
+
+</body>
 </html>

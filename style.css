@@ -1,0 +1,30 @@
+h1 {
+	font-family: 'Lora', serif;
+	font-size: 48px;
+	line-height:0%;
+	color: #E8E8E8;
+}		
+body {			
+	font-size: 14px;
+}
+smallprint {			
+	font-size: 8px;
+	position: absolute;
+	text-align:right;
+	bottom: 3%;
+	right: 5%
+}
+p, body {
+	font-family: 'Lora', serif;	
+	color: #E8E8E8  ;
+	margin: 45px 80px ;
+}
+ul li { display: inline-block; margin: 0 10px; }
+ul li a{ opacity: 1; width: 32px; height: 32px; display: block;}
+ul li.fb a{background: transparent url('social-facebook.png'); background-size: 32px 32px;}
+ul li.twitter a{background: transparent url('social-twitter.png'); background-size: 32px 32px;}
+ul li.linkedin a{background: transparent url('social-linkedin.png'); background-size: 32px 32px;}
+a:link {color:#E8E8E8; text-decoration:none;}
+a:visited {color:#E8E8E8; text-decoration:none;}
+a:hover {color:#AAC6FF; text-decoration:none;}
+a:active {color:#AAC6FF; text-decoration:none;}
