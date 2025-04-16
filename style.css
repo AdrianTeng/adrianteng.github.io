@@ -17,7 +17,7 @@ smallprint {
 p, body {
 	font-family: 'Lora', serif;	
 	color: #E8E8E8  ;
-	margin: 25px 80px ;
+	margin: 25px 30px ;
 }
 ul li { display: inline-block; margin: 0 10px; }
 ul li a{ opacity: 1; width: 32px; height: 32px; display: block;}
